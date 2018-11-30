@@ -1,3 +1,6 @@
+language: node_js
+node_js:
+  - "9"
 deploy:
   provider: elasticbeanstalk
   access_key_id: AKIAIJ6RXWGYBXW2VK5Q

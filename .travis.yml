@@ -9,5 +9,6 @@ deploy:
   region: us-west-1
   app: eb_test
   env: prod
+  bucket_name: elasticbeanstalk-us-west-1-438434662376
   on:
     repo: yaharry/eb_test

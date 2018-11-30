@@ -1,0 +1,10 @@
+deploy:
+  provider: elasticbeanstalk
+  access_key_id: AKIAIJ6RXWGYBXW2VK5Q
+  secret_access_key:
+    secure: WSRo+c+NAbIQQ7A+RPLT/vGcTaGuI3kiHuuAMw0ty2B8PamXkjEK41pevvj5XTPZRHUIlcv8g5aFeYBvHJR46Hq6tQx+IimMTUO1vbotwFdpcQUQTaqgQFvcwxg1u2KG+u3q/sNdoFr+PvzuyBXpFpej7zI4A+X+69pwFtmrWnz1AMAnPmrbeUmkeMEggZLF/9svsUJkf5wMubgvlfTWRfg1piqYdyxcVyh3jCcCcHFjgnx1z4nNCy/cf8xmvAuQ/3HBg2zsdxzkka98tITtTL1ox2S2BPe59R2TMYaIYRTRfc2MhwLlwrxsAK/g6kGbeJ8YMKWBSg3DKdHlauPu8O1Y4IKrMI+4Ltw4Y93wdJk/g/J5ZXZmK32HmxIaVowkFH0y2wyb72NKWO3FFWtWGF2vi/x1e06Q1/ds/Ms2xWo43Wz8H14yyQ/wupFlY17ZzosoC4FCe0VGzxR1tQZn3O2jElEpL56edu947QwY7GZixnnr0LUnHvU0nMCrBgBgZZKUZ6AVRpKs/c4bDTgpFxEAL5xi3Af3+qNlbjeZVin3sVR9T6KhJ+txSCi6P3h+g6abGp9nypeI2i2KvGd7rn9CdSYAgM0pv4Su++syf74c9bjo6g5sIJBnOfxZoXpPNBQkoEJ5VKYZNoWoM7U5MpqrtEuAM9YGmfODwXScs+o=
+  region: us-west-1
+  app: eb_test
+  env: prod
+  on:
+    repo: yaharry/eb_test
